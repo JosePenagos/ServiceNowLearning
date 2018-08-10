@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt onSubmit Example</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   alert('This event is beeing trigered before submiting this form.');
+   console.log('This event is beeing trigered before submiting this form.');	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-10 12:46:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebefb092db331300831b7a6139961990</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NeedIt onSubmit Example</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_264904_needit">156c9d42dbf31300831b7a61399619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">156c9d42dbf31300831b7a61399619f2</sys_scope>
+        <sys_update_name>sys_script_client_ebefb092db331300831b7a6139961990</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-10 13:40:57</sys_updated_on>
+        <table>x_264904_needit_needit</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
